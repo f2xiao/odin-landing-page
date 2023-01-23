@@ -1,3 +1,24 @@
+:root{
+  --bg-dark:#1F2937;
+}
+
+header{
+  --main-text-font: 48px;
+  --main-text-color: #F9FAF8;
+  --sec-text-font: 18px;
+  --sec-text-color: #E5E7EB;
+  --logo-text-font: 24px;
+  --logo-text-color: #F9FAF8;
+}
+main{
+  --button-color: #3882F6;
+  --info-text-font:36px;
+  --info-text-color:#1F2937;
+  --quote-bg-color: #E5E7EB;
+  --quote-text-font: 36px;
+  --quote-text-color: #1F2937;
+}
+
 *{
   margin:0;
   padding:0;
