@@ -1,4 +1,40 @@
-body{
-  background-color: aqua;
+*{
+  margin:0;
+  padding:0;
 }
 
+body{
+  margin: 16px 48px;
+}
+
+header{
+  background-color:
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+ul, li{
+  list-style: none;
+}
+
+.flex{
+  display: flex
+}
+
+.flex div{
+  flex:1
+}
+
+.sb{
+  justify-content: space-between;
+}
+
+.sa{
+  justify-content: space-around;
+}
