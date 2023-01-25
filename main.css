@@ -1,61 +1,99 @@
-:root{
-  --bg-dark:#1F2937;
-}
-
-header{
-  --main-text-font: 48px;
-  --main-text-color: #F9FAF8;
-  --sec-text-font: 18px;
-  --sec-text-color: #E5E7EB;
-  --logo-text-font: 24px;
-  --logo-text-color: #F9FAF8;
-}
-main{
-  --button-color: #3882F6;
-  --info-text-font:36px;
-  --info-text-color:#1F2937;
-  --quote-bg-color: #E5E7EB;
-  --quote-text-font: 36px;
-  --quote-text-color: #1F2937;
-}
-
 *{
+  padding: 0;
   margin:0;
-  padding:0;
 }
 
-body{
-  margin: 16px 48px;
+ul,li{
+  list-style-type: none;
 }
 
+
+/* header */
 header{
-  background-color:
+  padding:24px 48px;
+  background-color: aqua;
+}
+.nav,
+.links{
+  display: flex;
 }
 
-.text-center{
-  text-align: center;
+.logo,
+.links{
+  flex:1;
 }
 
-.text-right{
-  text-align: right;
+.links{
+  justify-content: flex-end;
+  gap: 24px;
 }
 
-ul, li{
-  list-style: none;
+/* hero */
+
+.hero{
+  padding: 48px 0;
+  display: flex;
+  gap: 36px;
 }
 
-.flex{
-  display: flex
-}
-
-.flex div{
+.hero div{
   flex:1
 }
-
-.sb{
-  justify-content: space-between;
+.hero-info{
+  max-width:40%
 }
 
-.sa{
-  justify-content: space-around;
+section{
+  padding:48px 48px;
+}
+
+/* info section */
+.info-container{
+  text-align: center;
+  background-color: pink;
+}
+.info-cards{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.info-card{
+  max-width: 140px;
+}
+
+/* testimonial section */
+.testimonial-container{
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testimonial-quote{
+  max-width: 800px;
+}
+
+.testimonial-signature{
+align-self: flex-end;
+}
+
+.cta{
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-container{
+  background-color: aqua;
+  display: flex;
+  max-width: 800px;
+  padding: 24px 48px;
+  gap: 24px;
+}
+
+footer{
+  padding: 24px 0;
+  text-align: center;
 }
