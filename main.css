@@ -29,5 +29,26 @@ ul,li{
 .hero{
   padding: 48px 0;
   display: flex;
+  gap: 36px;
 }
+
+.hero div{
+  flex:1
+}
+.hero-info{
+  max-width:40%
+}
+.info{
+  text-align: center;
+}
+.info-cards{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.info-card{
+  max-width: 140px;
+}
+
 
