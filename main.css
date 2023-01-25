@@ -1,4 +1,33 @@
-body{
-  background-color: aqua;
+*{
+  padding: 0;
+  margin:0;
+}
+
+ul,li{
+  list-style-type: none;
+}
+
+.container{
+  padding: 16px 48px;
+}
+
+.nav,
+.links{
+  display: flex;
+}
+
+.logo,
+.links{
+  flex:1;
+}
+
+.links{
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.hero{
+  padding: 48px 0;
+  display: flex;
 }
 
