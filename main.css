@@ -11,6 +11,7 @@ ul,li{
   padding: 16px 48px;
 }
 
+/* header */
 .nav,
 .links{
   display: flex;
@@ -26,6 +27,8 @@ ul,li{
   gap: 16px;
 }
 
+/* hero */
+
 .hero{
   padding: 48px 0;
   display: flex;
@@ -38,6 +41,8 @@ ul,li{
 .hero-info{
   max-width:40%
 }
+
+/* info section */
 .info{
   text-align: center;
 }
@@ -51,4 +56,20 @@ ul,li{
   max-width: 140px;
 }
 
+/* testimonial section */
+.testimonial{
+  padding: 48px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testimonial-quote{
+  max-width: 800px;
+}
+
+.testimonial-signature{
+align-self: flex-end;
+}
 
