@@ -43,7 +43,7 @@ ul,li{
 }
 
 /* info section */
-.info{
+.info-container{
   text-align: center;
 }
 .info-cards{
@@ -57,7 +57,7 @@ ul,li{
 }
 
 /* testimonial section */
-.testimonial{
+.testimonial-contaainer{
   padding: 48px 0;
   display: flex;
   justify-content: center;
@@ -73,3 +73,14 @@ ul,li{
 align-self: flex-end;
 }
 
+.cta{
+  display: flex;
+  justify-content: center;
+}
+
+.cta-container{
+  display: flex;
+  max-width: 800px;
+  padding: 16px 48px;
+  gap: 16px;
+}
