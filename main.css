@@ -10,6 +10,22 @@ ul,li{
   list-style-type: none;
 }
 
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+button,
+input[type="button"],
+input[type="submit"] {
+  border: none;
+  padding: 6px 24px;
+  background-color: #3882F6;
+  font-size: inherit;
+  color: inherit;
+  border-radius: 4px;
+}
 /* header */
 header{
   padding:24px 48px;
@@ -94,6 +110,7 @@ section{
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-shrink: 0.5;
 }
 
 .info-card-img{
@@ -119,8 +136,12 @@ section{
 
 
 /* testimonial section */
-.testimonial-container{
+.testimonial{
   background-color: #E5E7EB;
+}
+.testimonial-container{
+  max-width: 800px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,6 +176,16 @@ section{
 
 .cta-header{
   padding-bottom: 8px;
+  font-weight: bold;
+}
+
+.cta-right{
+  display: flex;
+  align-items: center;
+}
+
+.cta-right button{
+  border: 1px solid;
 }
 
 footer{
