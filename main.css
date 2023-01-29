@@ -2,20 +2,26 @@
   padding: 0;
   margin:0;
 }
-
+body{
+  font-family: 'Roboto', sans-serif, monospace;
+  color: #F9FAF8;
+}
 ul,li{
   list-style-type: none;
 }
 
-
 /* header */
 header{
   padding:24px 48px;
-  background-color: aqua;
+  background-color: #1F2937;
 }
 .nav,
 .links{
   display: flex;
+}
+
+.logo{
+  font-size:24px;
 }
 
 .logo,
@@ -42,6 +48,15 @@ header{
 .hero-info{
   max-width:40%
 }
+.hero-info-main{
+  font-weight:bolder;
+  font-size: 48px;
+}
+.hero-info-secondary, .links{
+  font-size: 18px;
+  color: #E5E7EB;
+  padding: 16px 0;
+}
 
 section{
   padding:48px 48px;
@@ -50,7 +65,13 @@ section{
 /* info section */
 .info-container{
   text-align: center;
-  background-color: pink;
+  color: #1F2937;
+}
+
+.info-header{
+  font-weight:bolder;
+  font-size: 36px;
+  margin-bottom: 48px;
 }
 .info-cards{
   display: flex;
@@ -59,41 +80,62 @@ section{
 }
 
 .info-card{
-  max-width: 140px;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-card-img{
+  display: block;
+  width: 150px;
+  height: 150px;
+  border:2px solid #3882F6;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 /* testimonial section */
 .testimonial-container{
-  background-color: aqua;
+  background-color: #E5E7EB;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: #1F2937;
 }
 
 .testimonial-quote{
   max-width: 800px;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
 }
 
 .testimonial-signature{
-align-self: flex-end;
+  align-self: flex-end;
 }
 
 .cta{
-  background-color: pink;
   display: flex;
   justify-content: center;
 }
 
 .cta-container{
-  background-color: aqua;
+  background-color: #3882F6;
   display: flex;
   max-width: 800px;
   padding: 24px 48px;
   gap: 24px;
+  border-radius:6px;
+}
+
+.cta-header{
+  padding-bottom: 8px;
 }
 
 footer{
   padding: 24px 0;
   text-align: center;
+  background-color: #1F2937;
 }
