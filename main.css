@@ -18,6 +18,7 @@ header{
 .nav,
 .links{
   display: flex;
+  align-items: center;
 }
 
 .logo{
@@ -40,6 +41,7 @@ header{
   padding: 48px 0;
   display: flex;
   gap: 36px;
+  align-items: center;
 }
 
 .hero div{
@@ -56,6 +58,14 @@ header{
   font-size: 18px;
   color: #E5E7EB;
   padding: 16px 0;
+}
+
+.hero-pic{
+  text-align: right;
+}
+
+.hero-pic img{
+  width: 100%;
 }
 
 section{
@@ -87,13 +97,27 @@ section{
 }
 
 .info-card-img{
-  display: block;
   width: 150px;
   height: 150px;
-  border:2px solid #3882F6;
+  /* border:2px solid #3882F6; */
   border-radius: 4px;
   margin-bottom: 8px;
 }
+
+.info-card:first-of-type .info-card-img{
+  background: center / cover no-repeat url("./info-ig1.jpg");
+}
+.info-card:nth-of-type(2) .info-card-img{
+  background: center / cover no-repeat url("./info-ig2.jpg");
+}
+.info-card:nth-of-type(3) .info-card-img{
+  background: center / cover no-repeat url("./info-ig3.jpg");
+}
+.info-card:nth-of-type(4) .info-card-img{
+  background: center / cover no-repeat url("./info-ig4.jpg");
+}
+
+
 
 /* testimonial section */
 .testimonial-container{
@@ -124,7 +148,7 @@ section{
 .cta-container{
   background-color: #3882F6;
   display: flex;
-  max-width: 800px;
+  max-width: 1000px;
   padding: 24px 48px;
   gap: 24px;
   border-radius:6px;

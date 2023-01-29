@@ -1,6 +1,8 @@
 # odin-landing-page
-CSS flexbox, html
-
-## Intro
+a landing webpage with CSS flexbox and html
 
 ## Development
+
+## Credit
+
+images are from [unsplash]:https://unsplash.com/s/photos/cat
